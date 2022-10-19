@@ -1,4 +1,21 @@
 <app-header></app-header>
+
 <div class="flex-box">
-    <app-accordion></app-accordion>
+
+    <div class="example-action-buttons">
+        <button mat-raised-button color="primary" (click)="accordion.openAll()">Expandir</button>
+        <button mat-raised-button (click)="accordion.closeAll()">Fechar</button>
+    </div>
+
+    <mat-accordion class="example-headers-align" multi>
+        <div class="contatos">
+            <app-accordion></app-accordion>
+        </div>
+        <div class="saude">
+            <app-accordion-saude></app-accordion-saude>
+        </div>
+        <div class="pessoal">
+            <app-accordion-pessoal></app-accordion-pessoal>
+        </div>
+    </mat-accordion>
 </div>

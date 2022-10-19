@@ -7,7 +7,9 @@ import { AccordionComponent } from './accordion/accordion.component';
 import {MatExpansionModule} from '@angular/material/expansion';
 import {MatDividerModule} from '@angular/material/divider';
 import {MatListModule} from '@angular/material/list';
+import {MatButtonModule} from '@angular/material/button';
 import { AccordionSaudeComponent } from './accordion-saude/accordion-saude.component';
+import { AccordionPessoalComponent } from './accordion-pessoal/accordion-pessoal.component';
 
 
 
@@ -16,17 +18,16 @@ import { AccordionSaudeComponent } from './accordion-saude/accordion-saude.compo
     PaginicialComponent,
     HeaderComponent,
     AccordionComponent,
-    AccordionSaudeComponent
+    AccordionSaudeComponent,
+    AccordionPessoalComponent
   ],
   imports: [
     CommonModule,
     MatToolbarModule,
     MatExpansionModule,
     MatDividerModule,
-    MatListModule
-  ],
-  exports: [HeaderComponent, 
-    PaginicialComponent, 
-    AccordionComponent]
+    MatListModule,
+    MatButtonModule
+  ]
 })
 export class PaginicialModule { }

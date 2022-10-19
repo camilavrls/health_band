@@ -15,7 +15,16 @@ mat-expansion-panel{
 }
 
 .numero{
+    margin-top: 10px;
     display: flex;
-    flex-direction: row;
-    align-content: space-around;
+    flex-direction: column;
+}
+
+.example-action-buttons{
+    background-color: white;
+    margin-bottom: 20px;
+}
+
+mat-list{
+    margin-bottom: 10px;
 }

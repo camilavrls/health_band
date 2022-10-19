@@ -10,9 +10,6 @@ export class AccordionComponent implements OnInit {
 
   panelOpenState = false;
 
-  @ViewChild(MatAccordion)
-  accordion: MatAccordion = new MatAccordion;
-
   constructor() { }
 
   ngOnInit(): void {

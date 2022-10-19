@@ -8,6 +8,9 @@ import { MatAccordion } from '@angular/material/expansion';
 })
 export class PaginicialComponent implements OnInit {
 
+  @ViewChild(MatAccordion)
+  accordion: MatAccordion = new MatAccordion;
+
   constructor() { }
 
   ngOnInit(): void {
