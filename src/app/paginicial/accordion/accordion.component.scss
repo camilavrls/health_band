@@ -1,0 +1,21 @@
+.mat-form-field + .mat-form-field {
+    margin-left: 8px;
+}
+
+.contato{
+    font-weight: bold;
+}
+
+mat-expansion-panel{
+    height: auto;
+}
+
+.mat-expansion-panel-content{
+    height: 100px;
+}
+
+.numero{
+    display: flex;
+    flex-direction: row;
+    align-content: space-around;
+}
